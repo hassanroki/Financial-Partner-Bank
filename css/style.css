@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+/* Log In Area Start */
+.submit-area{
+    box-shadow: 5px 5px 10px gray;
+}
+/* Log In Area End */
+
+/* Transaction Area Start */
+.transaction{
+    display: none;
+}
+
+.transaction .deposit{
+    background-color: slateblue;
+}
+
+.transaction .withdraw{
+    background-color: lightsalmon;
+}
+
+.transaction .balance{
+    background-color: orange;
+}
+
+.transaction .status{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 50px 0px;
+}
+/* Transaction Area End */
